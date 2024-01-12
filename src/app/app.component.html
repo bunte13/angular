@@ -1,0 +1,7 @@
+<app-driver *ngFor = "let vzc of vozaci;index as i;first as prv;last as posleden;odd as par;"
+[vozac]="vzc"
+[reden]="i+1"
+[class.prv] = "prv"
+[class.posleden] = "posleden"
+[class.par] = "par">
+</app-driver>
